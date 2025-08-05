@@ -1,0 +1,18 @@
+import Card from "@/app/components/card"
+import Header from "@/app/components/header"
+
+const Dashboard = ({}) => {
+    return (
+        <div className="w-full px-9 flex flex-col gap-5">
+            <Header name={"Surat"} />
+            <div className="flex flex-col gap-2 xl:h-7/12 lg:h-6/12 md:h-5/12">
+                <a>Riwayat Pembuatan Surat</a>
+                <div className="w-full flex flex-col md:overflow-y-scroll md:overflow-x-hidden gap-2 md:customscroll">
+                    <Card title={"Surat Penugasan Sos. Ponorogo"} subtitle={"Surat Penugasan"} time={"12 Mei 2025"} author={"Surya"}/>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Dashboard
