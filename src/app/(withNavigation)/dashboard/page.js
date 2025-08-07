@@ -6,11 +6,11 @@ const Dashboard = ({}) => {
         <div className="w-full px-9 flex flex-col gap-5">
             <Header name={"Dashboard"} />
             <div className="grid grid-cols-2 gap-6">
-                <div className="flex flex-col items-center p-5 gap-4 bg-[#454545]">
+                <div className="flex flex-col items-center p-5 gap-4 bg-[#067593]">
                     <a className="text-sm font-semibold">Jumlah Petugas</a>
                     <a className="text-5xl">27</a>
                 </div>
-                <div className="flex flex-col items-center p-5 gap-4 bg-[#454545]">
+                <div className="flex flex-col items-center p-5 gap-4 bg-[#067593]">
                     <a className="text-sm font-semibold">Jumlah Surat</a>
                     <a className="text-5xl">239</a>
                 </div>
